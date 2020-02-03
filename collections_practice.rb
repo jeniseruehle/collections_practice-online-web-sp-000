@@ -27,3 +27,7 @@ def kesha_maker(array)
   end  
   dolla
 end   
+
+def find_a(array)
+
+end  
