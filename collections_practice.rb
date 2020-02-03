@@ -19,7 +19,11 @@ def reverse_array(array)
 end   
 
 def kesha_maker(array)
+  n = 0
   dolla = []
-  array.each do |str|
-  
+  while n < array.length
+    array[n] = array[n]."$"
+    n += 3
+  end   
+  dolla
 end   
