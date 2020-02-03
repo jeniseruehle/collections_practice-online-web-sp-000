@@ -3,5 +3,5 @@ def sort_array_asc(array)
 end   
 
 def sort_array_desc(array)
-  array.sort { |a| a }.reverse
+  array.sort { |a, b| a > b }.reverse
 end   
