@@ -21,9 +21,6 @@ end
 def kesha_maker(array)
   n = 0
   dolla = []
-  while n < array.length
-   dolla << yield(array[n])
-    n += 3
   end   
   dolla
 end   
