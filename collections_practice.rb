@@ -20,6 +20,6 @@ end
 
 def kesha_maker(array)
   dolla = []
-  array.each do |str| str[2] = "$" }
+  array.each do |str|
   
 end   
