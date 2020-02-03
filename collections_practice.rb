@@ -20,5 +20,5 @@ end
 
 def kesha_maker(array)
   array.collect { |char| char[2] = "$" }
-  char
+  
 end   
