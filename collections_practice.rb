@@ -19,8 +19,8 @@ def reverse_array(array)
 end   
 
 def kesha_maker(array)
-  n = 0
   dolla = []
-  end   
-  dolla
+  
+    
+  
 end   
