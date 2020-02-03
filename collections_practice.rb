@@ -20,7 +20,10 @@ end
 
 def kesha_maker(array)
   dolla = []
-  
-    
-  
+  array.each do |name|
+    name_array = name.split("")
+    name_array[2] = "$"
+    dolla << name_array.join
+  end  
+  dolla
 end   
