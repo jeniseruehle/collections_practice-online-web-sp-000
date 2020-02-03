@@ -20,6 +20,6 @@ end
 
 def kesha_maker(array)
   dolla = []
-  array.each { 
+  array.each { |char| char.split
   
 end   
