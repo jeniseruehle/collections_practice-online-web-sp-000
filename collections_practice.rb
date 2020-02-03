@@ -22,7 +22,7 @@ def kesha_maker(array)
   n = 0
   dolla = []
   while n < array.length
-    array[n] = array[n]."$"
+   dolla << yield(array[n])
     n += 3
   end   
   dolla
